@@ -97,7 +97,7 @@ def moving_mails_to_our_folder():
 preparing_and_pulling_datas_in_the_DB()
 moving_mails_to_our_folder()
 
-##-------------------------IF WE WANT TO UPDATE(PULL NEW DATAS IN THE DB),JUST UNCOMMENT,EXECUTE THE PROGRAM, AND COMMENT AGAIN FOLLOWING LINES--------------------##
+##-------------------------IF WE WANT TO UPDATE(PULL NEW DATAS IN THE DB),JUST UNCOMMENT,EXECUTE THE PROGRAM, AND COMMENT AGAIN THE LINE 'CONN.COMMIT()'--------------------##
 
 # conn.commit()
 # conn.close()
